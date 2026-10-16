@@ -1,4 +1,4 @@
-/* ОБЩИЕ СТИЛИ ДЛЯ СТРАНИЦЫ */
+
 html, body {
   height: 100%; /* Растягиваем страницу на весь экран */
 }
@@ -81,10 +81,10 @@ h2 {
 }
 
 /* Фото и текст рядом */
-.photo {
+.avatar {
   display: inline-block;
   width: 260px;
-  height: 260px;
+  height: 300px;
 }
 
 .about-text {
@@ -96,6 +96,7 @@ h2 {
 table {
   width: 100%;
   border: 1px solid #111111;
+  border-collapse: collapse;
 }
 
 th, td {
@@ -113,6 +114,7 @@ th {
   width: 80px;
   height: 80px;
   margin-right: 20px;
+  margin-top: 10px;
 }
 
 /* Подвал */
@@ -126,7 +128,7 @@ footer {
 footer ul {
   margin: 0;
   padding: 20px;
-  text-align: center; /* Центрируем контакты в подвале по горизонтали (опционально) */
+  text-align: center; /* Центрируем контакты в подвале по горизонтали */
 }
 
 footer li {
